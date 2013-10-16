@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Music</title> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="css/themes/life.css" />
+		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />	
+    <link rel="stylesheet" type="text/css" href="css/bshop.css">
+	
+ <script type="text/javascript" charset="utf-8" src="js/cordova-2.0.0.js"></script>
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.mobile-1.2.1.js"></script>	
+<script type="text/javascript" charset="utf-8" src="assets/audio/audio.js"></script>
+</head> 
+<body> 
+<div data-role="page" id="page-home" data-theme="e"  >	
+	<div data-role="header" data-theme="e"  style="min-height: 30px;" data-position="fixed" >
+		<h1>Audiocast</h1>
+		<a href="" class="ui-btn-left" data-rel="back" data-inline="true">Back</a>
+	</div><!-- /header -->
+    
+    <div data-role="content" id="content-manual" data-theme="e">
+    
+    <audio id="stream" preload='none'>
+        <source src="assets/audio/OutofThemAll.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <a href="#" id="audioControl" data-role="button">Play</a>
+
+<script>
+var stream = document.getElementById('stream'),
+ctrl = document.getElementById('audioControl');
+
+ctrl.onclick = function () {
+
+// Update the Button
+var pause = ctrl.innerHTML === 'Pause';
+ctrl.innerHTML = pause ? 'Play' : 'Pause';
+
+// Update the Audio
+var method = pause ? 'pause' : 'play';
+stream[method]();
+
+// Prevent Default Action
+return false;
+};
+</script>
+
+    </div>  <!-- /content-manual -->
+	
+</div>  <!-- /page -->
+</body>
+</html>

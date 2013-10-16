@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Map</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<style>
+{margin:0;padding:0}
+html, body {height:100%;width:100%;overflow:hidden}
+table {height:100%;width:100%;table-layout:static;border-collapse:collapse}
+iframe {height:100%;width:100%}
+
+.header {border-bottom:1px solid #000}
+.content {height:100%}
+</style>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBQchXad-nsjAxWaIhsCH4qVxFrvlEiqW0&sensor=false"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.mobile-1.2.1.js"></script>
+	
+</head>
+
+<body>
+<div data-role="page" id="four" class="page-map" data-theme="e">
+
+	<div data-role="header" style="min-height: 30px;" data-theme="e">
+		<h1>Contact Us</h1>
+	</div><!-- /header -->
+	<div data-role="content" data-theme="e" style="padding:0px;margin:0;">
+	<h2>Locations</h2>
+	<p>3377 Jim Lee Road
+</br>Tallahassee, Florida 32301-7372
+</br>Phone: (850) 671-2982
+</br>Email:  ldm3377jimlee@yahoo.com
+</p>
+<div id="theMap" data-theme="e">
+<center>
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?ie=UTF8&amp;q=life+deliverance+ministries&amp;fb=1&amp;gl=us&amp;hq=life+deliverance+ministries&amp;cid=0,0,7677663157072095793&amp;ll=30.402089,-84.262644&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?ie=UTF8&amp;q=life+deliverance+ministries&amp;fb=1&amp;gl=us&amp;hq=life+deliverance+ministries&amp;cid=0,0,7677663157072095793&amp;ll=30.402089,-84.262644&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left"></a></small></div>
+  
+  
+  <div data-role="footer" data-position="fixed" data-theme="e" data-position="fixed">
+<div data-role="navbar" data-grid="d" data-theme="e" data-type="horizontal" data-position="fixed">
+	<ul>
+	<li><a class="btn"   href="menu.html"><i class="icon-th icon-2x"></i></a></li>
+  <li><a class="btn"  href="aboutus.html"><i class="icon-info-sign icon-2x"></i></a></li>
+  <li><a class="btn"   href="live.html"><i class="icon-youtube-play icon-2x"></i></a></li>
+  <li><a class="btn"  href="music.html"><i class="icon-youtube-sign icon-2x"></i></a></li>
+   <li><a class="btn"  href="map.html"><i class="icon-map-marker icon-2x"></i></a></li>
+  </ul></div>
+</div>
+</div>
+<!-- /footer -->	
+<!-- /page one -->
+</body>
+</html>

@@ -1,0 +1,72 @@
+/* Containers */
+body {
+	background:url(file:///C|/Users/Samantha%20Hill/Desktop/bshop/bshopapp/image/bricks1.jpg) repeat;
+
+	
+background 
+	background-color: rgb(255,251,240);
+	font-family: Arial;
+	font-size: 0.8em;
+	
+}
+#header {
+background:url(file:///C|/Users/Samantha%20Hill/Desktop/bshop/bshopapp/image/bhead.png);
+	height:300 px;
+	width:150 px;
+	margin: 0 auto;
+} 
+
+section.section1
+{
+	position:absolute;
+right:150px;
+left:12px;
+top:100px;
+	color:#fff;
+
+border-style:solid;
+border-color:rgb(0,127,0);
+border-width:2px;
+}
+
+section.section2
+{	
+	position: absolute;
+	right:50px;
+	left: 200px;
+	top: 97px;
+	color: #fff;
+	border-color: rgb(0,127,0);
+	border-width: 2px;
+border-style:solid;
+}
+
+
+table{ font-family:Tahoma, Geneva, sans-serif, bold; font:bold color:rgb(0,127,0;)
+}
+
+td{
+font:bold;
+font-weight:bold;
+border-right: 1px solid #0D000A;
+	border-bottom: 1px solid #0D000A;
+	background:rgb(0,127,0);
+	padding: 6px 6px 6px 12px;
+	color: #0D000A;
+	text-align: center;
+}
+th
+{
+font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica,
+	sans-serif;
+	color: #0D000A;
+	border-right: 1px solid #0D000A;
+	border-bottom: 1px solid #0D000A;
+	border-top: 1px solid #0D000A;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 6px 6px 6px 12px;
+	background: #8C0D16 no-repeat;
+}
+

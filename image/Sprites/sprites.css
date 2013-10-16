@@ -1,0 +1,209 @@
+.icon-home,.icon-home2,.icon-image,.icon-camera,.icon-music,.icon-play,.icon-film,.icon-connection,.icon-feed,.icon-file,.icon-profile,.icon-phone,.icon-phone-hang-up,.icon-address-book,.icon-notebook,.icon-location,.icon-location2,.icon-clock,.icon-calendar,.icon-calendar2,.icon-screen,.icon-tablet,.icon-tv,.icon-undo,.icon-redo,.icon-bubble,.icon-bubble2,.icon-user,.icon-users,.icon-users2,.icon-user2,.icon-user3,.icon-accessibility,.icon-globe,.icon-earth,.icon-star,.icon-info,.icon-info2,.icon-mail,.icon-mail2,.icon-google-plus,.icon-facebook,.icon-facebook2,.icon-twitter,.icon-twitter2,.icon-twitter3,.icon-feed2,.icon-youtube,.icon-vimeo,.icon-vimeo2,.icon-tumblr,.icon-tumblr2,.icon-android,.icon-windows,.icon-windows8,.icon-twitter4,.icon-home3,.icon-earth2,.icon-info3,.icon-monitor,.icon-camera2,.icon-winsows,.icon-lines,.icon-mail3,.icon-info4,.icon-list {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-image: url(sprites.png);
+	background-repeat: no-repeat;
+}
+.icon-home {
+	background-position: 0 0;
+}
+.icon-home2 {
+	background-position: -64px 0;
+}
+.icon-image {
+	background-position: -128px 0;
+}
+.icon-camera {
+	background-position: -192px 0;
+}
+.icon-music {
+	background-position: -256px 0;
+}
+.icon-play {
+	background-position: -320px 0;
+}
+.icon-film {
+	background-position: -384px 0;
+}
+.icon-connection {
+	background-position: -448px 0;
+	width: 40px;
+}
+.icon-feed {
+	background-position: -512px 0;
+}
+.icon-file {
+	background-position: -576px 0;
+}
+.icon-profile {
+	background-position: -640px 0;
+}
+.icon-phone {
+	background-position: -704px 0;
+}
+.icon-phone-hang-up {
+	background-position: -768px 0;
+}
+.icon-address-book {
+	background-position: -832px 0;
+}
+.icon-notebook {
+	background-position: -896px 0;
+}
+.icon-location {
+	background-position: -960px 0;
+}
+.icon-location2 {
+	background-position: 0 -64px;
+}
+.icon-clock {
+	background-position: -64px -64px;
+}
+.icon-calendar {
+	background-position: -128px -64px;
+}
+.icon-calendar2 {
+	background-position: -192px -64px;
+}
+.icon-screen {
+	background-position: -256px -64px;
+}
+.icon-tablet {
+	background-position: -320px -64px;
+}
+.icon-tv {
+	background-position: -384px -64px;
+}
+.icon-undo {
+	background-position: -448px -64px;
+}
+.icon-redo {
+	background-position: -512px -64px;
+}
+.icon-bubble {
+	background-position: -576px -64px;
+}
+.icon-bubble2 {
+	background-position: -640px -64px;
+}
+.icon-user {
+	background-position: -704px -64px;
+}
+.icon-users {
+	background-position: -768px -64px;
+}
+.icon-users2 {
+	background-position: -832px -64px;
+}
+.icon-user2 {
+	background-position: -896px -64px;
+}
+.icon-user3 {
+	background-position: -960px -64px;
+}
+.icon-accessibility {
+	background-position: 0 -128px;
+}
+.icon-globe {
+	background-position: -64px -128px;
+}
+.icon-earth {
+	background-position: -128px -128px;
+}
+.icon-star {
+	background-position: -192px -128px;
+}
+.icon-info {
+	background-position: -256px -128px;
+}
+.icon-info2 {
+	background-position: -320px -128px;
+}
+.icon-mail {
+	background-position: -384px -128px;
+}
+.icon-mail2 {
+	background-position: -448px -128px;
+}
+.icon-google-plus {
+	background-position: -512px -128px;
+}
+.icon-facebook {
+	background-position: -576px -128px;
+}
+.icon-facebook2 {
+	background-position: -640px -128px;
+}
+.icon-twitter {
+	background-position: -704px -128px;
+}
+.icon-twitter2 {
+	background-position: -768px -128px;
+}
+.icon-twitter3 {
+	background-position: -832px -128px;
+}
+.icon-feed2 {
+	background-position: -896px -128px;
+}
+.icon-youtube {
+	background-position: -960px -128px;
+}
+.icon-vimeo {
+	background-position: 0 -192px;
+	width: 34px;
+	height: 34px;
+}
+.icon-vimeo2 {
+	background-position: -64px -192px;
+}
+.icon-tumblr {
+	background-position: -128px -192px;
+}
+.icon-tumblr2 {
+	background-position: -192px -192px;
+}
+.icon-android {
+	background-position: -256px -192px;
+}
+.icon-windows {
+	background-position: -320px -192px;
+}
+.icon-windows8 {
+	background-position: -384px -192px;
+}
+.icon-twitter4 {
+	background-position: -448px -192px;
+}
+.icon-home3 {
+	background-position: -512px -192px;
+}
+.icon-earth2 {
+	background-position: -576px -192px;
+}
+.icon-info3 {
+	background-position: -640px -192px;
+}
+.icon-monitor {
+	background-position: -704px -192px;
+}
+.icon-camera2 {
+	background-position: -768px -192px;
+}
+.icon-winsows {
+	background-position: -832px -192px;
+}
+.icon-lines {
+	background-position: -896px -192px;
+}
+.icon-mail3 {
+	background-position: -960px -192px;
+}
+.icon-info4 {
+	background-position: 0 -256px;
+}
+.icon-list {
+	background-position: -64px -256px;
+	width: 37px;
+}

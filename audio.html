@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Music</title> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="css/themes/life.css" />
+		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />	
+    <link rel="stylesheet" type="text/css" href="css/bshop.css">
+	
+ <script type="text/javascript" charset="utf-8" src="js/cordova-2.0.0.js"></script>
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.mobile-1.2.1.js"></script>	
+<script type="text/javascript" charset="utf-8" src="assets/audio/audio.js"></script>
+</head> 
+<body> 
+<div data-role="page" id="page-home" data-theme="e"  >	
+	<div data-role="header" data-theme="e"  style="min-height: 30px;" data-position="fixed" >
+		<h1>Audiocast</h1>
+	</div><!-- /header -->
+    
+    <div data-role="content" id="content-manual" data-theme="e">
+    
+        <div data-role="button" id="playaudio" data-theme="e">Play</div>
+        <div data-role="button" id="pauseaudio" data-theme="e">Pause</div>
+        <div data-role="button" id="stopaudio" data-theme="e">Stop</div>    
+    
+        <div class="ui-grid-a">
+            <div class="ui-block-a"> Current: <span id="audio_position">0 sec</span></div>
+            <div class="ui-block-b">Total: <span id=media_dur>0</span> sec</div>
+        </div><!-- /grid-a -->
+
+    </div>  <!-- /content-manual -->
+</div>  <!-- /page -->
+</body>
+</html>
